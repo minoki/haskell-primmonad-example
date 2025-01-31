@@ -35,7 +35,8 @@ executable count-prime
     build-depends:
         base ^>=4.18.2.1,
         count-prime,
-        vector ^>=0.13.2.0
+        vector ^>=0.13.2.0,
+        transformers ^>=0.6.1.2
 
     hs-source-dirs:   app
     default-language: GHC2021
